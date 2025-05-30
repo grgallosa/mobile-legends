@@ -77,11 +77,11 @@ header nav {
 }
 
 .ml-logo {
-    height: 50px;
+    height: 35px;
 }
 
 .menu {
-    width: 50px;
+    width: 35px;
 }
 
 .skins {
@@ -96,5 +96,15 @@ header nav {
 @media screen and (min-width: 1000px) {
     .skins {
         grid-template-columns: repeat(8, 1fr);
+    }
+
+    .ml-logo {
+        height: 50px;
+        margin-left: 24px;
+    }
+
+    .menu {
+        width: 50px;
+        margin-right: 24px;
     }
 }
